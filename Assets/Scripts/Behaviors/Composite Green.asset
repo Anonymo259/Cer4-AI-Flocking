@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b476464315b8cb4e92ad49f28612281, type: 3}
+  m_Name: Composite Green
+  m_EditorClassIdentifier: 
+  behaviors:
+  - behavior: {fileID: 11400000, guid: 1f2cd09cca591304c8736f2eaaf25946, type: 2}
+    weights: 4
+  - behavior: {fileID: 11400000, guid: d1729a930a1e9904fa1271a7141511fc, type: 2}
+    weights: 1.1
+  - behavior: {fileID: 11400000, guid: 585d29c6363c02a4d9ea3c41fe46d3be, type: 2}
+    weights: 1.5
+  - behavior: {fileID: 11400000, guid: 4d36d7df4014d87448a4a7fa6f894f35, type: 2}
+    weights: 0.4
+  - behavior: {fileID: 11400000, guid: d01f7c5de3f0aff4abbec68d81ebb06d, type: 2}
+    weights: 0.5
+  - behavior: {fileID: 11400000, guid: 37ac01a49792cd54e8eb54b945da8494, type: 2}
+    weights: 0.5
